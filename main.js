@@ -54,7 +54,7 @@ function MushroomDude(game, spritesheet) {
 
 MushroomDude.prototype.draw = function () {
 //    console.log("drawing");
-	this.MushroomDude.update();
+	this.update();
     this.animation.drawFrame(this.game.clockTick, this.ctx, this.x, this.y);
 }
 
